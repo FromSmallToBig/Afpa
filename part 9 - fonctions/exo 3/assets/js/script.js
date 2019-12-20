@@ -13,9 +13,7 @@ switch(sw)
     Voyelles()
     break;
 
-    case "4":
-    Caractères()
-    break;
+
 }
 
 function Multiplication()
