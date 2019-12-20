@@ -25,21 +25,15 @@ function Multiplication()
     alert(nb1 * nb2)
 }
 function Somme(){
-    var i=0;
-    var somme=0;
-    var moyenne=0;
-    var nombre=0;
-    nb = parseInt(prompt("moyenne"));
-    notes = new Array(nb);
+    var total = 0, compteur = 0, moyenne = null, entier = null;
 
-    for(i=1;i<=nb;i++)
+    while (entier != 0)
     {
-       x = parseInt(prompt("entre un nombre"));
-       notes[i-1] = parseInt(prompt("entre un second nombre"));
-       somme = x + notes[i-1];
+        total += entier;
+        compteur++;
+        var entier = parseInt(prompt("Saisir un nombre entier \nSaissisez '0' pour mettre fin a la boucle."));        
     }
-
-  alert("la somme des nombres est : " + somme/nb);
+    alert("Moyenne : " + total/compteur);
 }
 
 function Voyelles(){
