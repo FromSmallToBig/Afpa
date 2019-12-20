@@ -38,9 +38,8 @@ function Somme(){
 
 function Voyelles(){
     var voyelles = 0;
-    var mot = prompt("Saisir un mot :");
-            
-    for (i=0;i<mot.length;i++)
+    var mot = prompt("Saisir un mot :");           
+    for (i=0 ;i < mot.length; i++)
     {
        if (mot[i] == "a" || mot[i] == "e" || mot[i] == "i" || mot[i] == "o" || mot[i] == "u" || mot[i] == "y") 
        {	
@@ -48,7 +47,7 @@ function Voyelles(){
        }
     }
     
-    alert("le nombre de voyelles dans :"+mot+" est de "+voyelles);
+    alert("Nombre de voyelles dans : " + mot + " est de " + voyelles);
 
 }
 
