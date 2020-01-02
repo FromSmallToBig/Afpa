@@ -54,9 +54,10 @@ function Voyelles(){
 function Caractères(){
     var phrase = prompt("entrez un mot ou une phrase");
     var lettre = prompt("entrez une lettre");
-
+    
     var compteur=0;
     var longueur=texte.length;
+
     alert(longueur);
     
     for(i=0;i<=longueur;i++)
